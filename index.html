@@ -19,10 +19,10 @@
     <strong>This is bold.</strong>
     <hr>
     <h2>@Containers</h2>
-    <h3 class="container-heading">Fluid Containers</h3>
-    <p class="container-fluid">This is fluid container and it will go till the end of the page. </p>
-    <h3 class="container-heading">Center Container</h3>
-    <p class="container-center">This is center container and it will go till specified length in center.</p>
+    <h3 class="">Fluid Containers</h3>
+    <div class="container">This is fluid container and it will go till the end of the page. </div>
+    <h3>Center Container</h3>
+    <div class="container container-center">This is center container and it will go till specified length in center.</div>
     <hr>
     <h2>@links</h2>
     <a class="link link-primary" href="/">Primary Link</a>
@@ -50,32 +50,37 @@
     </ol>
     <hr>
     <h2>@Nav</h2>
-    <nav class="navigation">
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
         <ul class="list-no-bullets">
-            <li class="list-item-inline"><a class="link navigation-link-color" href="/">Home</a></li>
+            <li class="list-item-inline"><a class="link navigation-link-color link-active" href="/">Home</a></li>
             <li class="list-item-inline"><a class="link navigation-link-color" href="/">Products</a></li>
             <li class="list-item-inline"><a class="link navigation-link-color" href="/">About</a></li>
         </ul>
     </nav>
     <hr>
     <h2>@Header</h2>
-    <header>
+    <header class="header">
         <img class="header-img" src="images/hero.svg">
         <div class="header-heading">Adarsh Balak The<span> Web Devloper</span> </div>
     </header>
     <hr>
     <h2>@Section</h2>
     <section class="section">
-        <h3>White Section</h3>
-        <p class="section-container">This will have white background.</p>
+        <div class="container-center">
+            <h1>White Section</h1>
+        <p>We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+        </div> 
     </section>
     <section class="section section-offwhite">
-        <h3>Off White Section</h3>
-        <p class="section-container">This will have off white background.</p>
+        <div class="container-center">
+            <h1>Off White Section</h1>
+        <p>We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+        </div>
     </section>
     <hr>
     <h2>@Footer</h2>
-    <footer>
+    <footer class="footer">
         <div class="footer-heading">some small heading inside footer</div>
         <ul class="footer-list list-no-bullets">
             <li class="list-item-inline"><a class="link" href="/">Social One</a></li>
