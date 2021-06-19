@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0rem;
+}
+:root{
+    --primary-color:#A5B4FC;
+    --grey-color:#D4D4D4;
+}
+
+/* container */
+
+.container-heading{
+    text-align: center;
+}
+
+.container-center{
+    text-align: center;
+}
+
+.container-fluid{
+    padding: 0rem 1rem;;
+}
+/* links */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 0.5rem; 
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+   border-radius: 0.5rem;
+   color: white;
+}
+
+.link-secondary{
+    border:1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+}
+
+hr{
+    margin: 2rem 0rem;;
+}
+
+/* list */
+
+.list-no-bullets{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+/* nav */
+
+.navigation{
+    text-align: right;
+    background-color: var(--primary-color);
+    padding: 0.5rem 0.5rem;
+}
+
+.navigation-link-color{
+    color: white;
+}
+
+/* header */
+
+.header-img{
+    max-width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-heading{
+    text-align: center;
+    font-size: x-large;
+    color: var(--grey-color);
+}
+
+.header-heading span{
+    color: var(--primary-color);
+}
+
+/* section */
+
+.section h3{
+    text-align: center;
+}
+
+.section-container{
+    text-align: center;
+}
+
+.section-offwhite{
+    background-color: var(--grey-color);
+    padding: 0.5rem 0rem;
+}
+
+/* footer */
+
+.footer-list{
+    text-align: center;
+    padding-inline-start: 0px;
+}
+
+.footer-heading{
+    text-align: center;
+}
